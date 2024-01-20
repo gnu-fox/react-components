@@ -1,0 +1,26 @@
+body {
+    background: rgb(32, 32, 32);
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    width: auto;
+}
+
+span {
+    display: block;
+    color: tomato;
+    font-size: x-small;
+}
